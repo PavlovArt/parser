@@ -13,4 +13,13 @@ struct UserData: Decodable {
     let username: String
     let email: String
     let id: Int
+//    let address : [Address]
+}
+
+
+struct Address: Decodable {
+    let street: String
+    let suite: String
+    let city: String
+    let zipcode: String
 }
