@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct UserData: Decodable {
     let name: String
